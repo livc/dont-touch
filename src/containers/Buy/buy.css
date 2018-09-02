@@ -1,0 +1,119 @@
+.buy-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-bottom: 4.9vh;
+}
+
+.buy-main{
+    cursor: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 95%;
+    margin: 5px auto 32px;
+    box-shadow: 1px 1px 20px 4px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 4px;
+    padding: 25px;
+}
+
+#price{
+    text-align: center;
+    margin: 12px 0px 0px;
+    padding: 14px 20px 8px;
+    color: #FF5722;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.green{
+    color: #00B24B;
+}
+
+.lbl{
+    font-size: 1.2rem;
+    width: 90%;
+    text-align: left;
+    font-weight: 800;
+    margin: 30px -21px 12px -40px;
+}
+
+.expl{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #3c3c3c;
+    margin-top: 0.7rem;
+}
+
+#yourlink{
+    width: 90%;
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 10px 9px;
+    border: 2px solid #FF5722;
+}
+
+span#currencyinput {
+    /*position: relative;*/
+    /*z-index: 10;*/
+    /*border-radius: 0px;*/
+    /*border: 3px inset #fff;*/
+    /*display: inline-flex;*/
+    /*background: #fff;*/
+    /*font-size: 1.2rem;*/
+    /*padding: 4px 8px 3px;*/
+    /*line-height: 2.2rem;*/
+    /*color: #7d7d7d;*/
+}
+#amount_general{
+    font-size: 1.2rem;
+    padding: 5px 9px;
+    border: 2px solid #FF5722;
+}
+/* buttons */
+
+.paybuttons{
+    background-color: #F7931A;
+
+    width: 40%;
+    padding: 1rem 2px;
+    border-radius: 4px;
+    border: none;
+    margin: 0px 1rem;
+    background: #666;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#buttons{
+    display: flex;
+    height: 75px;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 18px 0px 0px;
+}
+#buttons button{
+    font-weight: 600;
+    font-style: italic;
+    position: relative;
+    border-radius: 0px;
+    outline: none;
+}
+
+.tips_hidden{
+    visibility: hidden;
+    padding: 2px 0;
+    text-align: center;
+}
+.tips_show{
+    padding: 2px 0;
+    text-align: center;
+    color: #FF5722;
+}

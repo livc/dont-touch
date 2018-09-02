@@ -1,0 +1,14 @@
+{
+  "name": "Nervos Do Not Touch",                                 // DApp 名称
+  "blockViewer": "https://etherscan.io/",                     // 相应区块链浏览器的地址
+  "chainSet": {                                               // DApp 所在链的信息集合
+    "1": "http://121.196.200.225:1337"                        // key: chainId  value: 节点 host
+  },
+  "icon": "http://7xq40y.com1.z0.glb.clouddn.com/23.pic.jpg", // DApp 图标
+  "entry": "index.html",                                      // DApp 入口地址
+  "provider": "huobi_research",                         // DApp 提供者
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
